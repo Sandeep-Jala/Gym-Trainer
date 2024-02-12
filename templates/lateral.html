@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<style>
+  
+
+  html, body {
+    background-image: url('static/images/gg (1).jpg');
+    font-family: Helvetica, sans-serif, sans-serif;
+    font-size: 14px;
+    overflow: hidden; 
+  }
+  
+  h1 {
+    position: absolute;
+    width: 800px;
+    height: 100px;
+    left: 70px;
+    top: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 120px;
+    line-height: 141px;
+    letter-spacing: -0.05em;
+    color: #FFFFFF;
+  }
+  
+  h2{
+    position: absolute;
+    width: 800px;
+    height: 76px;
+    left: 70px;
+    top: 135px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 76px;
+    letter-spacing: -0.05em;
+  
+    color: #FFFFFF;
+  }
+  
+  h3{
+    width: 60px; 
+    height: 60px; 
+    font-size: 45px; 
+    color: #FFFFFF;
+    padding-left: 45px;
+  }
+  
+  p {
+    font-size: 30px;
+    font-weight: normal;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: justify;
+    margin-top: 0px;
+    margin-bottom: 100px;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    letter-spacing: -0.05em;
+    left:99px; 
+  
+    color: #FFFFFF;
+  
+    background: rgba(87, 73, 174, 0.37);
+  }
+  
+  a {
+    color: black;
+    text-decoration: none;
+    display: inline-block; 
+  }
+  
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 30px;
+    width: 100%;
+    color: white;
+    text-align: center;
+  }
+  
+  
+  indexbutton{
+    position: absolute;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 65px;
+    /* identical to box height */
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    letter-spacing: -0.05em;
+    height: 75px; 
+    left:99px; 
+    color: #ffffff;
+    border-width: 10px;
+    background: rgb(1, 2, 88);
+    border-radius: 10px;
+    border:rgba(87, 73, 174, 0.37);
+    
+  }
+  
+  indexbutton1{
+    position: absolute;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 20px;
+    line-height: 45px;
+    /* identical to box height */
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    letter-spacing: -0.05em;
+    background: rgb(1, 2, 88);
+    height: 50px; 
+    left:99px; 
+  
+    color: #FFFFFF;
+    border-radius: 10px;
+    background: rgba(87, 73, 174, 0.37);
+  
+  }
+  
+  indexbutton:hover{
+    border: 4px solid #FFFFFF;
+    box-sizing: border-box;
+  }
+  
+  indexbutton1:hover{
+    border: 4px solid #FFFFFF;
+    box-sizing: border-box;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .parent {
+    width:730px;
+    height:120px;
+    position: absolute;
+    top:170px; 
+    left:770px;
+    text-align: center;
+    align-content: center;
+  }
+   
+  .child {
+    position: absolute;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -90px);
+  }
+  
+  .stars {
+    visibility: hidden;
+    left: 840px; 
+    bottom:0px; 
+    position:absolute; 
+    width: 188px; 
+    height: 210px; 
+    z-index: 0;
+  }
+  
+  .stars.animated {
+    visibility: visible;
+    overflow: auto;
+    left: 840px; 
+    position:absolute;
+    bottom:0px;
+    animation: fadein 1.5s ease;
+    
+  }
+  /*
+  @keyframes fadein {
+    0%   {bottom: -220px;}
+    25%  {bottom: -100px;}
+    50%  {bottom: 0px;}
+    75%  {bottom: -100px;}
+    100% {bottom: -220px;}
+  }*/
+  
+  
+  </style>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TR(ai)NER</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="imgs\bgg.jpg">
+    <link rel="icon" type="image/png" sizes="16x16" href="imgs\bgg.jpg">
+    <link rel="stylesheet" href="style.css">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-178448067-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-178448067-1');
+    </script>
+    <script type="text/javascript">
+      function goToNewPage()
+      {
+          var url = document.getElementById('list').value;
+          if(url != 'none') {
+              window.location = url;
+          }
+      }
+  </script>
+</head>
+<h2 style="margin-top: -50px;">Lateral Raise</h2>
+<select name="weight" id="weight" accesskey="target" style="width:500px; border-radius: 10px; padding-left:20px; font-size:40px; margin-left: 400px; margin-top: 100px;" required>   
+  <option>Select Dumbell Weight</option>
+  <option>2.5Kgs/5.5lbs</option>
+  <option>5kgs/11lbs</option>
+  <option>7.5kgs/16.5lbs</option>
+  <option>10kgs/22lbs</option>
+</select><br><br>
+<iframe style="margin-left: 300px; margin-top: 20px;" width= "1000" height="400" src="https://www.youtube.com/embed/3VcKaXpzqRo" title="How To: Dumbbell Side Lateral Raise" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<div><a href="lateralstart.html" style="width: 210px"><indexbutton style="top:650px; margin-left: 550px;">Start Lateral Raise</indexbutton></a></div>
